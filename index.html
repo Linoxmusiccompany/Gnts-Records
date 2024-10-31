@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gnts insription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>gnts insription</h1>
+        <form id="registration-form" name="contact" method="POST" data-netlify="true">
+            <input type="text" name="Full_Name" placeholder="Nom complet" required>
+            <input type="text" name="Adress" placeholder="Adresse" required>
+            <input type="text" name="Phone_number" placeholder="Numéro de téléphone" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="date" name="Date" required>
+            <input type="text" name="School" placeholder="École" required>
+            <input type="text" name="Level" placeholder="Niveau" required>
+            <button type="submit">Enregistrer</button>
+        </form>
+        <div id="message" class="hidden"></div>
+    </div>
+    <script src="script"></script>
+</body>
+</html>
